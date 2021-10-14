@@ -7,20 +7,28 @@
 
 .main{
     background-color: white;
-    border: solid 2px grey;
     height: 250px;
-    width: 600px;
+    width: 500px;
+    margin:auto;
+    margin-top: 30px;
 
 }
 #profile{
     position: absolute;
     margin: 15px;
     height: 70px;
+    border-radius: 40px;
+    border: solid 3px white;
+    box-shadow: 0px 0px 2px 3px gray;
 }
 
 .top-bar{
     background-color: rgb(49, 159, 167);
     height: 60px;
+}
+
+.border{
+    border: solid 2px grey;
 }
 
 h2{
