@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liking Likes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <h1>Network</h1>
+    </div>
+    <h1 id="headding">Your Feed</h1>
+    <div id="main">
+        <div id="right-column">
+            <img src="user-circle.png" height="70px" width="70px" alt="user-pic">
+            <a href="link">Add an avatar</a>
+            <h4>James Doe</h4>
+        </div>
+        <div class="left-column">
+            <div class="userBox">
+                <div class="topLine">
+                    <h1>Neil M</h1>
+                    <p><a id="likes">0</a> Likes</p>
+                    <button onclick="clicks(this)" id="likeBTN">Like</button>
+                </div>
+                <div class="bottomLine">
+                    <p>I just set up this new discord bot, let me know what you all
+                        think. <a href="link">link</a> </p>
+                </div>
+            </div>
+            <div class="userBox">
+                <div class="topLine">
+                    <h1>Nichole K</h1>
+                    <p><a id="likesTwo">0</a> Likes</p>
+                    <button onclick="clicksTwo(this)" id="likeBTN">Like</button>
+                </div>
+                <div class="bottomLine">
+                    <p>Just finished my <a href="link">next comic,</a> check it out.</p>
+                </div>
+            </div>
+            <div class="userBox">
+                <div class="topLine">
+                    <h1>Jim R</h1>
+                    <p><a id="likesThree">0</a> Likes</p>
+                    <button onclick="clicksThree(this)" id="likeBTN">Like</button>
+                </div>
+                <div class="bottomLine">
+                    <p>I can't stop listening to the <a href="links">new album</a>. Who else is liking it? </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

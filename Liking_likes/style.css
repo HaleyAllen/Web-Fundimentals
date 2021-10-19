@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: black;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    margin: 10px;
+}
+
+#headding{
+    display: flex;
+    justify-content: center;
+}
+
+#main{
+    display: flex;
+    justify-content: center;
+}
+
+#right-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: solid 2px black;
+    margin-right: 20px;
+    margin-top: 20px;
+    height: 200px;
+    width: 125px;
+    padding: 10px 10px 15px 10px;
+}
+
+.userBox{
+    display: flex;
+    flex-direction: column;
+    border: solid 2px black ;
+    width: 375px;
+    height: 140px;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin: 20px;
+}
+
+.topLine{
+    display: flex;
+    justify-content: space-between;
+}
+
+#likeBTN{
+    background-color: rgb(255,216,102);
+    border: solid 2px black;
+    box-shadow: 2px 3px 0px 0px black;
+    padding: 5px 10px 5px 10px;
+    width: 70px;
+    height: 30px;
+    font-weight: bolder;
+}
