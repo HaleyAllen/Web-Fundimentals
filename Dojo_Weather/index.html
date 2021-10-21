@@ -11,11 +11,70 @@
 <body>
     <div id="container">
         <div class="navbar">
-            <h1>DojoWeather</h1>
+            <h1 id="title" >DojoWeather</h1>
             <div class="cityLinks">
-                <a id="city" href="link">Burbank</a>
-                <a id="city" href="link">Chicago</a>
-                <a id="city" href="link">Dallas</a>
+                <a onclick="guessWhat()" id="city">Burbank</a>
+                <a onclick="guessWhat()" id="city">Chicago</a>
+                <a onclick="guessWhat()" id="city">Dallas</a>
+            </div>
+        </div>
+        <div id="weatherBox">
+            <div id="titleBar">
+                <h2 id="locationName" >San Jose</h2>
+                <p id="tempSelect" >show temperature in 
+                    <select onchange="dropdown(this)" name="temperature" id="selectMenu">
+                        <option value="celsius" >°C</option>
+                        <option value="farenhiet">°F</option>
+                    </select>
+                </p>
+            </div>
+            <div id="boxes" >
+                <div class="weatherOfTheDayBox">
+                    <h2>Today</h2>
+                    <img class="weatherImage" src="some_rain.png" alt="Rain">
+                    <p>some rain</p>
+                    <div class="hiLos" >
+                        <p id="hi" class="hi">24°</p>
+                        <p id="lo" class="lo">18°</p>
+                    </div>
+                </div>
+                <div class="weatherOfTheDayBox">
+                    <h2>Tomorrow</h2>
+                    <img class="weatherImage" src="some_sun.png" alt="sun">
+                    <p>some sun</p>
+                    <div class="hiLos" >
+                        <p id="hi" class="hi">27°</p>
+                        <p id="lo" class="lo">19°</p>
+                    </div>
+                </div>
+                <div class="weatherOfTheDayBox">
+                    <h2>Friday</h2>
+                    <img class="weatherImage" src="some_clouds.png" alt="Clouds">
+                    <p>some clouds</p>
+                    <div class="hiLos" >
+                        <p id="hi" class="hi">21°</p>
+                        <p id="lo" class="lo">16°</p>
+                    </div>
+                </div>
+                <div class="weatherOfTheDayBox">
+                    <h2>Saturday</h2>
+                    <img class="weatherImage" src="some_sun.png" alt="sun">
+                    <p>some sun</p>
+                    <div class="hiLos" >
+                        <p id="hi" class="hi">26°</p>
+                        <p id="lo" class="lo">21°</p>
+                    </div>
+                </div>
+            </div>
+            <div id="acceptAllCookies">
+                <img height="60" width="60" src="cookie.png" alt="Cookie">
+                <div id="cookieParagraph">
+                    <h2>Stop! Cookie time</h2>
+                    <p>We use cookies (sadly not the edible ones) to personalize </p>
+                    <p>content and adds, to provide social media fetures and to</p> 
+                    <p>analyse our traffic. <a href="link" id="cookiePolicy">Read more...</a></p>
+                </div>
+                <button onclick="closeOne()" id="acceptBTN">I accept</button>
             </div>
         </div>
     </div>

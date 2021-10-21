@@ -7,7 +7,7 @@
 }
 
 #container{
-    width: 1200px;
+    width: 970px;
 }
 
 .navbar{
@@ -17,14 +17,110 @@
     background-color: rgb(159,197,248);
     color: whitesmoke;
     padding: 10px;
+    margin-bottom: 20px;
+}
+
+#title{
+    font-size: 40px;
+    margin-left: 120;
 }
 
 .cityLinks{
-    margin-left: 80px;
+    margin-left: 100px;
+    font-size: 20px;
 }
 
 #city{
     color: white;
     text-decoration: none;
-    margin-right: 30px;
+    margin-right: 70px;
+    cursor: pointer;
+}
+
+#weatherBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#titleBar{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 2px black;
+    width: 800px;
+    align-items: center;
+    padding: 10px;
+}
+
+#locationName{
+    font-size: 30px;
+}
+
+#tempSelect{
+    font-size: 13px;
+    font-weight: bold;
+}
+select{
+    border: solid 2px black;
+}
+
+#boxes{
+    display: flex;
+    justify-content: center;
+
+}
+
+.weatherOfTheDayBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(238,238,238);
+    margin: 10px;
+    padding: 10px;
+    width: 150px;
+    height: 250px;
+}
+
+.weatherImage{
+    height: 100px;
+    width: 100px;
+    border-radius: 60px;
+}
+
+.hiLos{
+    display: flex;
+}
+
+.hi{
+    margin-right: 90px;
+    color: red;
+    font-weight: bolder;
+}
+
+.lo{
+    color: royalblue;
+    font-weight: bolder;
+}
+
+#acceptAllCookies{
+    display: flex;
+    border: solid 2px black;
+    background-color: white;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom: 10px;
+    left: 200px;
+    right: 235px;
+}
+
+#acceptBTN{
+    background-color: rgb(2,195,189);
+    text-align: center;
+    color: snow;
+    border: solid 2px black;
+    box-shadow: 2px 3px 0px 0px black;
+    padding: 5px;
 }
