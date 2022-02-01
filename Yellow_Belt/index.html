@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EasyBay</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="navBar">
+            <div id="titleLogo">
+                <img id="leafLogo" src="leaf.png" alt="leaf_logo">
+                <h1>EasyBay</h1>
+            </div>
+            <input id="searchBar" type="text" placeholder="Search for anything">
+            <p id="signIn">Sign In</p>
+            <button onclick="alertMessage(this)" id="shoppingCart"><img src="cart-dark.png" alt="CartLogo" height="40" width="40"></button>
+        </div>
+        <div id="optionMenu">
+            <p>Aeonium</p>
+            <p>Andromischus</p>
+            <p>Agave</p>
+            <p>Aloe</p>
+            <p>Anacampseros</p>
+            <p>Aristaloe</p>
+            <p>More...</p>
+        </div>
+        <div id="mainTitle">
+            <h1>Your Source for Serious Succulent Specialties</h1>
+        </div>
+        <div class="topRow">
+            <div class="rightColumn">
+                <div class="rightHalf">
+                        <div id="succulentParagraph">
+                            <p>Discover succ-</p>
+                            <p>ulent varieties</p>
+                            <p>one pot or rack</p>
+                            <p>at a time!</p>
+                        </div>
+                        <p>Discover <img height="20" width="25" src="arrow-light.png" alt="arrow"></p>
+                </div>
+                <div class="hoverImages">
+                    <img height="300" width="310" class="image-main" src="succulents-1.jpg" srcset="succulents-1.jpg 2x" alt="Demo image 1">
+                    <img height="300" width="310" class="image-hover" src="succulents-2.jpg" srcset="succulents-2.jpg 2x" alt="Demo image 2">
+                </div>
+            </div>
+            <div class="leftColumn">
+                <img height="200" width="325" src="aloe-m.jpg" alt="succulent">
+                <div class="bottomHalf">
+                    <p>Soothing aloe</p>
+                    <img height="20" width="25" src="arrow-light.png" alt="arrow">
+                </div>
+            </div>
+        </div>
+        <div class="bottomRow">
+            <div class="succulentColumn">
+                <img class="succulentImg" src="aeonium-s.jpg" alt="Aeonium">
+                <p>Aeonium</p>
+            </div>
+            <div class="succulentColumn">
+                <img class="succulentImg" src="aloe-s.jpg" alt="Aloe">
+                <p>Aloe</p>
+            </div>
+            <div class="succulentColumn">
+                <img class="succulentImg" src="cactus-s.jpg" alt="cactus">
+                <p>Cactus</p>
+            </div>
+            <div class="succulentColumn">
+                <img class="succulentImg" src="echeveria-s.jpg" alt="echeveria">
+                <p>Echeveria</p>
+            </div>
+            <div class="succulentColumn">
+                <img class="succulentImg" src="sedum-s.jpg" alt="sedum">
+                <p>Sedum</p>
+            </div>
+            <div class="succulentColumn">
+                <img class="succulentImg" src="sempervivum-s.jpg" alt="sempervivum">
+                <p>Sempervivum</p>
+            </div>
+        </div>
+        <div id="acceptAllCookies">
+            <img height="60" width="60" src="alert-dark.png" alt="alert_box">
+            <div id="cookieParagraph">
+                <p>This site makes use of third-party cookies, by clicking "I accept" you agree to the</p> 
+                <p>terms outlined in our <a href="link" id="cookiePolicy">cookie policy.</a></p>
+            </div>
+            <button onclick="closeOne()" id="acceptBTN">I accept</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

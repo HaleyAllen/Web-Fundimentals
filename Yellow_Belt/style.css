@@ -1,0 +1,181 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    width: 972px;
+    margin-left: 200px;
+}
+
+#navBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+#titleLogo{
+    display: flex;
+    align-items: center;
+}
+
+#leafLogo{
+    background-color: rgb(2,195,189);
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+#searchBar{
+    border-radius: 20px;
+    width: 600px;
+    height: 30px;
+    border: solid 2px rgb(197,196,197);
+    background-color: rgb(247,246,247);
+    font-weight: bold;
+    padding-left: 15px;
+}
+
+#signIn{
+    font-weight: bolder;
+}
+
+#shoppingCart{
+    background-color: white;
+    border: none;
+}
+
+#optionMenu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 5px black;
+    margin-top: 10px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+#mainTitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    font-size: 20px;
+}
+
+.topRow{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.rightColumn{
+    display: flex;
+    flex: 2;
+}
+
+
+.rightHalf{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(2,195,189);
+    color: white;
+    height: 300px;
+    width: 315px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+#succulentParagraph{
+    display: flex;
+    margin-bottom: 40px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hoverImages {
+    position: relative;
+    width: 360px; /* can be omitted for a regular non-lazy image */
+    max-width: 100%;
+}
+
+.hoverImages img.image-hover {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    object-fit: contain;
+    opacity: 0;
+      ransition: opacity .2s;
+}
+
+.hoverImages:hover img.image-hover {
+    opacity: 1;
+}
+
+.leftColumn{
+    margin-left: -20px;
+    flex: 1;
+}
+
+.bottomHalf{
+    display: flex;
+    align-items: center;
+    background-color: rgb(2,195,189);
+    color: white;
+    padding: 10px;
+    padding-left: 30px;
+    margin-top: 20px;
+    height: 55px;
+}
+
+.bottomRow{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(183,237,235);
+    padding: 40px 5px 40px 5px;
+    margin-bottom: 60px;
+}
+
+.succulentColumn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.succulentImg{
+    border-radius: 90px;
+    margin-bottom: 15px;
+    height: 140px;
+    width: 140px;
+}
+
+#acceptAllCookies{
+    display: flex;
+    border: solid 2px black;
+    background-color: white;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom: 10px;
+    left: 200px;
+    right: 235px;
+}
+
+#acceptBTN{
+    background-color: rgb(2,195,189);
+    text-align: center;
+    color: snow;
+    border: solid 2px black;
+    box-shadow: 2px 3px 0px 0px black;
+    padding: 5px;
+}
